@@ -17,8 +17,9 @@ R.java :  Rand method for input. betwen [-100,100] only integers
 
 
 *explain rum-time
---------------------------------------------------------------------------------------------------------
---custom--
+
+---------------------------------------------------------------------------------------------------
+CUSTOM
 Please choose 1 or 2: 1.Custom Input 2.Random Input--  *we can choose from 1 or 2
 1                                                       *assume that we enter 1
 Please insert the numbers:1 4 5 2 1 4 7 8 5 1                 *only integers 10 elements
@@ -30,7 +31,10 @@ Please insert the numbers:1 4 5 2 1 4 7 8 5 1                 *only integers 10 
 1
 Sorted:Array elements:1 1 1 2 4 4 5 5 7 8   *here is the sorted list via Bubblesort(we have entered case 1)
 ------------------------------------------------------------------------------------------------------------
---random--
+
+
+-----------------------------------------------------------------------------------------------------------
+RANDOM
 Please choose 1 or 2: 1.Custom Input 2.Random Input--
 2
 Array elements:33 10 4 -10 -73 -65 76 -60 76 -61    * 10 elements of random numbers [-100,100] as i set
