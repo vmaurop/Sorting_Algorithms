@@ -14,7 +14,7 @@ public class Main
     {
         int[] array = new int[10];
         String select;
-        System.out.println("\nPlease choose 1 or 2: 1.Custom Input 2.Random Input--");
+        System.out.println("\nPlease choose 1 or 2: 1.Custom Input 2.Random Input");
         Scanner in = new Scanner(System.in);
         select = in.nextLine();
 
