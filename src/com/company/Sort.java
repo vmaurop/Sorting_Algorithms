@@ -31,7 +31,7 @@ public class Sort
             }
         }
 
-/*optional if we want to count the process time of the algorithm
+/*optional if we want to count the process time of the algorithm nanosec
 
         long EndTime = System.nanoTime();
         long duration = EndTime - StartTime;
