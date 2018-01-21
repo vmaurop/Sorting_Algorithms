@@ -9,7 +9,7 @@ public class Sort
     public static void BubbleSort(int[] array)
     {
 
-//        long StartTime = System.nanoTime();
+//long StartTime = System.nanoTime();
 
         for (int i = 0; i < array.length - 1; i++)
         {
