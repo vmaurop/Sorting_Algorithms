@@ -41,23 +41,28 @@ public class Data
                 System.exit(0);
             case "1":
                 Sort.BubbleSort(array);
-                System.out.print("Sorted:");print(array);
+                System.out.print("Sorted:");
+                print(array);
                 break;
             case "2":
                 Sort.SelectionSort(array);
-                System.out.print("Sorted:");print(array);
+                System.out.print("Sorted:");
+                print(array);
                 break;
             case "3":
                 Sort.InsertionSort(array);
-                System.out.print("Sorted:");print(array);
+                System.out.print("Sorted:");
+                print(array);
                 break;
             case "4":
                 Sort.QuickSort(array,0,array.length);
-                System.out.print("Sorted:");print(array);
+                System.out.print("Sorted:");
+                print(array);
                 break;
             case "5":
                 Sort.mergeSort(array, 0, array.length-1);
-                System.out.print("Sorted:");print(array);
+                System.out.print("Sorted:");
+                print(array);
                 break;
             default:
                 System.out.print("wrong input");
