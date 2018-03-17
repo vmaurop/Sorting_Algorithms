@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Sort
@@ -164,13 +163,13 @@ public class Sort
             k++;
         }
     }
-    public static void MergeSort(int[] array, int l, int r)
+    public static void mergeSort(int[] array, int l, int r)
     {
         if (l < r)
         {
             int m = (l+r)/2;
-            MergeSort(array, l, m);
-            MergeSort(array, m+1, r);
+            mergeSort(array, l, m);
+            mergeSort(array, m+1, r);
             merge(array, l, m, r);
         }
     }

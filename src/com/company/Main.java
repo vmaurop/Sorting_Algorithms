@@ -22,10 +22,10 @@ public class Main
         {
             case "1":
                 Data.input(array);
-                Data.Select(array);
+                Data.select(array);
                 break;
             case "2":
-                R.Rand();
+                R.rand();
                 break;
             default:                       //catch all execeptions...select is String
                 System.out.println("wrong input");

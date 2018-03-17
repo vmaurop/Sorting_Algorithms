@@ -7,7 +7,7 @@ public class R
 {
 
 
-    public static void Rand()
+    public static void rand()
     {
 
 
@@ -22,7 +22,7 @@ public class R
 
             }
             Data.print(array);
-            Data.Select(array);
+            Data.select(array);
 
     }
 }

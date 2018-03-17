@@ -28,11 +28,11 @@ public class Data
         return array;
     }
 
-    public static void Select(int[] array)
+    public static void select(int[] array)
     {
         String select;
-        System.out.println("\n\n\n--Select the Algorithm you want to implement sorting--\n--0:Exit 1.BubbleSort 2.SelectionSort "+
-        "3.InsertionSort 4.QuickSort 5.MergeSort--");
+        System.out.println("\n\n\n--select the Algorithm you want to implement sorting--\n--0:Exit 1.BubbleSort 2.SelectionSort "+
+        "3.InsertionSort 4.QuickSort 5.mergeSort--");
         Scanner in = new Scanner(System.in);
         select = in.nextLine();
         switch (select)
@@ -56,12 +56,12 @@ public class Data
                 System.out.print("Sorted:");print(array);
                 break;
             case "5":
-                Sort.MergeSort(array, 0, array.length-1);
+                Sort.mergeSort(array, 0, array.length-1);
                 System.out.print("Sorted:");print(array);
                 break;
             default:
                 System.out.print("wrong input");
-                Select(array);
+                select(array);
 
 
         }
